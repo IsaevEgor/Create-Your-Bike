@@ -1,0 +1,51 @@
+/*.Cover{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+
+	background: #41295a;
+	background: -webkit-linear-gradient(to right, #41295a, #2f0743);
+	background: linear-gradient(to right, #41295a, #2f0743);
+}
+.Cover::before{
+	content: "BIKE";
+
+	font-family: 'Bebas Neue';
+	letter-spacing: 50px;
+	color: #2f0743;
+	text-shadow: 1px 1px 2px pink;
+
+	position: absolute;
+	top: 20%;
+	left: -150px;
+
+	font-size: 30em;
+	transform: rotate(-90deg);
+}
+.Cover::after{
+	content: "BIKE";
+
+	font-family: 'Bebas Neue';
+	letter-spacing: 50px;
+	color: #390952;
+	text-shadow: 1px 1px 2px pink;
+
+	position: absolute;
+	top: 20%;
+	right: -150px;
+
+	font-size: 30em;
+	transform: rotate(90deg);
+}
+*/
+.Cover{
+	position: absolute;
+	z-index: -1;
+
+	width: 100vw;
+	height: 100vh;
+
+	background-image: url(../../assets/img/cover.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

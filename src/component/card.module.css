@@ -1,0 +1,31 @@
+.ContentBlock{
+	position: relative;
+
+	width: 100vw;
+	height: 100vh;
+	transition: 0.5s;
+}
+.ContentBlock::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60%;
+	height: 100vh;
+	background-color: aliceblue;
+	/*background-image: url(../assets/img/bike-bg.png);*/
+	background-size: 50px;
+	background-repeat: round;
+}
+.BlockButton{
+	position: absolute;
+	z-index: 1;
+	left: 10%;
+	bottom: 10%;
+}
+.ButtonBuy{
+	position: absolute;
+	left: 110%;
+	bottom: 0%;
+	opacity: 1;
+}

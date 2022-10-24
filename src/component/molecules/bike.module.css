@@ -1,0 +1,26 @@
+.BikeBlock{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+}
+.Rama{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/bike/rama.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.Sedlo{
+	position: absolute;
+	top: 0%;
+	left: 16%;
+	width: 23%;
+	height: 25%;
+	background-image: url(../../assets/bike/sedlo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	transform: rotateX(20deg);
+	transform: rotateY(20deg);
+	transform: rotateZ(-5deg);
+}

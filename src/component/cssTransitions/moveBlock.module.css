@@ -1,0 +1,46 @@
+.enter::after {
+	animation: go-left 1s ease 0.1s 1 forwards;
+  }
+  
+  .enterActive::after {
+
+  }
+  
+  .exit::after {
+	animation: go-right 1s ease-in-out 0.1s 1 forwards;
+  }
+  
+  .exitActive::after {
+	right: 40%;
+  }
+  /*
+.ContentBlock.entering::after{
+	animation: go-left 1s ease 0.1s 1 forwards;
+}
+.ContentBlock.entered::after{
+	right: 40%;
+}
+.ContentBlock.exiting::after{
+	animation: go-right 1s ease-in-out 0.1s 1 alternate;
+}
+.ContentBlock.exited::after {
+	right: 0%;
+}
+*/
+@keyframes go-left {
+	0%{
+		right: 0;
+	} 50% {
+
+	} 100% {
+
+		right: 40%;
+	}
+}
+@keyframes go-right {
+	from{
+		right: 40%;
+	} to {
+		right: 0%;
+	}
+}
