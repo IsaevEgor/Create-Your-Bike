@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Create-Your-Bike/static/css/main.a31d4c37.css",
+    "main.js": "/Create-Your-Bike/static/js/main.7398edac.js",
+    "static/media/wheel_1.png": "/Create-Your-Bike/static/media/wheel_1.261073f8bc0e96d98226.png",
+    "static/media/rama.png": "/Create-Your-Bike/static/media/rama.5a6012b6f599ce553b45.png",
+    "static/media/wheel_4.png": "/Create-Your-Bike/static/media/wheel_4.0b4710a75065487d7f86.png",
+    "static/media/wheel(1).png": "/Create-Your-Bike/static/media/wheel(1).b8878a3517aff514f330.png",
+    "static/media/wheel_2.png": "/Create-Your-Bike/static/media/wheel_2.b8878a3517aff514f330.png",
+    "static/media/wheel_3.png": "/Create-Your-Bike/static/media/wheel_3.7ed47dab822f67738ea2.png",
+    "static/media/sedlo.png": "/Create-Your-Bike/static/media/sedlo.5273ee471682db337209.png",
+    "static/media/bike.png": "/Create-Your-Bike/static/media/bike.81e2ea675fbf90f80761.png",
+    "index.html": "/Create-Your-Bike/index.html",
+    "main.a31d4c37.css.map": "/Create-Your-Bike/static/css/main.a31d4c37.css.map",
+    "main.7398edac.js.map": "/Create-Your-Bike/static/js/main.7398edac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a31d4c37.css",
+    "static/js/main.7398edac.js"
+  ]
+}
