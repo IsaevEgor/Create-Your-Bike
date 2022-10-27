@@ -1,0 +1,27 @@
+.enterActive {
+	animation: show-block 1s ease-in-out forwards;
+  }
+  .enterDone{
+	transform: translateY(200%);
+  }
+  .exitActive {
+	animation: hide-block 2s ease-in forwards;
+  }
+  .exitDone{
+	transform: translateY(0);
+  }
+
+  @keyframes show-block {
+	0%{
+		transform: translateY(0);
+	} 100% {
+		transform: translateY(200%);
+	}
+}
+@keyframes hide-block {
+	0%{
+		transform: translateY(200%);
+	} 100% {
+		transform: translateY(0);
+	}
+}

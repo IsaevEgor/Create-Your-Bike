@@ -4,18 +4,19 @@
 	width: 100vw;
 	height: 100vh;
 	transition: 0.5s;
+	overflow: hidden;
 }
 .ContentBlock::after{
 	content: "";
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 60%;
+	width: 90%;
 	height: 100vh;
 	background-color: aliceblue;
-	/*background-image: url(../assets/img/bike-bg.png);*/
-	background-size: 50px;
-	background-repeat: round;
+	background-image: url(../assets/img/bike.png);
+	background-size: 150px;
+	background-position: left;
 }
 .BlockButton{
 	position: absolute;
@@ -23,9 +24,107 @@
 	left: 10%;
 	bottom: 10%;
 }
-.ButtonBuy{
+.ButtonBuy {
 	position: absolute;
 	left: 110%;
 	bottom: 0%;
 	opacity: 1;
+}
+.StartText {
+	position: absolute;
+	right: 10%;
+	z-index: 1;
+
+	font-family: "Play";
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 120%;
+	color: rgb(53, 0, 102);
+	text-shadow: -6px -3px 5px rgba(34,24,128,0.28);
+}
+.SecondText {
+	position: absolute;
+	left: 10%;
+	z-index: 1;
+
+	font-family: "Play";
+	font-weight: 600;
+	font-size: 52px;
+	line-height: 120%;
+	color: rgb(53, 0, 102);
+	text-shadow: -6px -3px 5px rgba(34,24,128,0.28);
+}
+
+/*=========================================*/
+.BlockHidden{
+	overflow: hidden;
+	padding: 10px;
+
+	position: absolute;
+	z-index: 1;
+	right: 5%;
+	bottom: 5%;
+}
+.Block{
+	width: 500px;
+	padding: 20px 15px;
+	
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+}
+.Title{
+	margin: 0;
+
+	font-family: "Play";
+	font-size: 22px;
+	line-height: 120%;
+}
+.Span{
+	display: block;
+	margin: 0 0 10px 0;
+
+	font-family: "Play";
+	font-size: 10px;
+	line-height: 120%;
+}
+.FlexBlock{
+	display: flex;
+
+}
+.Item{
+	flex: 0 1 20%;
+	border: 2px solid rgb(189, 189, 189);
+	padding: 5px;
+	border-radius: 10px;
+
+	transition: 0.3s ease;
+}
+.Img{
+
+	width: 100%;
+	padding-bottom: 100%;
+
+	background-image: url(../assets/wheel/wheel_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Item:hover{
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+}
+.Item:not(:last-child){
+	margin-right: 15px;
+}
+.Item:nth-child(2) .Img{
+	background-image: url(../assets/wheel/wheel_2.png);
+}
+.Item:nth-child(3) .Img{
+	background-image: url(../assets/wheel/wheel_3.png);
+}
+.Item:nth-child(4) .Img{
+	background-image: url(../assets/wheel/wheel_4.png);
 }

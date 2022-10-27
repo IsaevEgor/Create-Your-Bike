@@ -1,0 +1,46 @@
+.enterActive {
+	animation: rama-up 3s linear forwards;
+  }
+
+  @keyframes rama-up {
+	0%{
+		z-index: 2;
+		top: 20%;
+	} 10% {
+		top: 15%;
+		transform: rotateZ(-10deg);
+	} 20% {
+		top: 15%;
+		transform: rotateZ(-10deg);
+	} 30% {
+	} 40% {
+		transform: rotateZ(10deg);
+	} 50% {
+		transform: rotateZ(10deg);
+	} 60% {
+		transform: rotateZ(10deg);
+	} 80% {
+		transform: rotateZ(-10deg);
+	} 90% {
+		top: 15%;
+		transform: rotateZ(-10deg);
+	} 100% {
+		top: 20%;
+		transform: rotateZ(0);
+	}
+}
+
+
+/*
+@keyframes rama-up {
+	0%{
+		top: 20%;
+	} 20% {
+		top: 10%;
+	} 80% {
+		top: 10%;
+	} 100% {
+		top: 20%;
+	}
+}
+*/

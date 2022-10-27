@@ -1,17 +1,17 @@
 .enter::after {
-	animation: go-left 1s ease 0.1s 1 forwards;
+	animation: go-left 1.5s ease 0.1s 1 forwards;
   }
   
-  .enterActive::after {
-
+  .enterDone::after {
+	right: 10%;
   }
   
   .exit::after {
-	animation: go-right 1s ease-in-out 0.1s 1 forwards;
+	animation: go-right 1.5s ease-in-out 0.1s 1 forwards;
   }
   
   .exitActive::after {
-	right: 40%;
+	right: 10%;
   }
   /*
 .ContentBlock.entering::after{
@@ -30,16 +30,13 @@
 @keyframes go-left {
 	0%{
 		right: 0;
-	} 50% {
-
 	} 100% {
-
-		right: 40%;
+		right: 10%;
 	}
 }
 @keyframes go-right {
 	from{
-		right: 40%;
+		right: 10%;
 	} to {
 		right: 0%;
 	}

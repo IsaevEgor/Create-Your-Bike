@@ -1,0 +1,21 @@
+.enterActive {
+	animation: go-out 2s ease-in-out forwards;
+  }
+  .exitActive {
+	animation: go-in 2s ease-out forwards;
+  }
+
+  @keyframes go-out {
+	0%{
+		transform: rotateZ(0deg);
+	} 100% {
+		transform: rotateZ(360deg);
+	}
+}
+@keyframes go-in {
+	0%{
+		transform: rotateZ(360deg);
+	} 100% {
+		transform: rotateZ(0deg);
+	}
+}

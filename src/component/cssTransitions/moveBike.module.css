@@ -1,0 +1,24 @@
+.enterActive {
+	animation: go-out 2s ease-in-out forwards;
+  }
+  .enterDone {
+	left: 55%;
+  }
+  .exitActive {
+	animation: go-in 2s ease-out forwards;
+  }
+
+  @keyframes go-out {
+	0%{
+		left: 15%;
+	} 100% {
+		left: 55%;
+	}
+}
+@keyframes go-in {
+	0%{
+		left: 55%;
+	} 100% {
+		left: 15%;
+	}
+}

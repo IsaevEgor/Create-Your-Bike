@@ -1,0 +1,211 @@
+/*===Replace Front Wheel TYPE 1============================*/
+
+.front-type1-enter-active {
+	animation: replace_front 2.5s ease-in-out forwards;
+  }
+  .front-type1-enter-done{
+	background-image: url(../../assets/wheel/wheel_1.png);
+  }
+
+  @keyframes replace_front {
+	0%{
+		right: -11.5%;
+		bottom: -15%;
+	} 20% {
+		right: -11.5%;
+		bottom: -35%;
+		transform: rotateZ(-50deg);
+	} 50% {
+		right: -400%;
+		transform: rotateZ(760deg);
+	} 100% {
+		right: -11.5%;
+		background-image: url(../../assets/wheel/wheel_1.png);
+	}
+}
+/*===Replace Front Wheel TYPE 1============================*/
+
+/*===Replace Back Wheel TYPE 1============================*/
+.back-type1-enter-active {
+	animation: replace_back 1s ease-in-out 0.8s forwards;
+  }
+  .back-type1-enter-done{
+	background-image: url(../../assets/wheel/wheel_1.png);
+  }
+
+  @keyframes replace_back {
+	0%{
+		left: -15%;
+		bottom: -15%;
+	} 20% {
+		left: -15%;
+		bottom: -35%;
+		transform: rotateZ(50deg);
+	} 50% {
+		left: -200%;
+		transform: rotateZ(-760deg);
+	} 100% {
+		left: -15%;
+		background-image: url(../../assets/wheel/wheel_1.png);
+	}
+}
+/*===Replace Back Wheel TYPE 1============================*/
+/*====================================================================*/
+/*===Replace Front Wheel TYPE 2============================*/
+
+.front-type2-enter-active {
+	animation: replace_front_type2 2.5s ease-in-out forwards;
+  }
+  .front-type2-enter-done{
+	background-image: url(../../assets/wheel/wheel_2.png);
+  }
+
+  @keyframes replace_front_type2 {
+	0%{
+		right: -11.5%;
+		bottom: -15%;
+	} 20% {
+		right: -11.5%;
+		bottom: -35%;
+		transform: rotateZ(-50deg);
+	} 50% {
+		right: -400%;
+		transform: rotateZ(760deg);
+	} 100% {
+		right: -11.5%;
+		background-image: url(../../assets/wheel/wheel_2.png);
+	}
+}
+/*===Replace Front Wheel TYPE 2============================*/
+
+/*===Replace Back Wheel TYPE 2============================*/
+.back-type2-enter-active {
+	animation: replace_back_type2 1s ease-in-out 0.8s forwards;
+  }
+  .back-type2-enter-done{
+	background-image: url(../../assets/wheel/wheel_2.png);
+  }
+
+  @keyframes replace_back_type2 {
+	0%{
+		left: -15%;
+		bottom: -15%;
+	} 20% {
+		left: -15%;
+		bottom: -35%;
+		transform: rotateZ(50deg);
+	} 50% {
+		left: -200%;
+		transform: rotateZ(-760deg);
+	} 100% {
+		left: -15%;
+		background-image: url(../../assets/wheel/wheel_2.png);
+	}
+}
+/*===Replace Back Wheel TYPE 2============================*/
+/*====================================================================*/
+/*===Replace Front Wheel TYPE 3============================*/
+
+.front-type3-enter-active {
+	animation: replace_front_type3 2.5s ease-in-out forwards;
+  }
+  .front-type3-enter-done{
+	background-image: url(../../assets/wheel/wheel_3.png);
+  }
+
+  @keyframes replace_front_type3 {
+	0%{
+		right: -11.5%;
+		bottom: -15%;
+	} 20% {
+		right: -11.5%;
+		bottom: -35%;
+		transform: rotateZ(-50deg);
+	} 50% {
+		right: -400%;
+		transform: rotateZ(760deg);
+	} 100% {
+		right: -11.5%;
+		background-image: url(../../assets/wheel/wheel_3.png);
+	}
+}
+/*===Replace Front Wheel TYPE 3============================*/
+
+/*===Replace Back Wheel TYPE 3============================*/
+.back-type3-enter-active {
+	animation: replace_back_type3 1s ease-in-out 0.8s forwards;
+  }
+  .back-type3-enter-done{
+	background-image: url(../../assets/wheel/wheel_3.png);
+  }
+
+  @keyframes replace_back_type3 {
+	0%{
+		left: -15%;
+		bottom: -15%;
+	} 20% {
+		left: -15%;
+		bottom: -35%;
+		transform: rotateZ(50deg);
+	} 50% {
+		left: -200%;
+		transform: rotateZ(-760deg);
+	} 100% {
+		left: -15%;
+		background-image: url(../../assets/wheel/wheel_3.png);
+	}
+}
+/*===Replace Back Wheel TYPE 3============================*/
+/*====================================================================*/
+/*===Replace Front Wheel TYPE 4============================*/
+
+.front-type4-enter-active {
+	animation: replace_front_type4 2.5s ease-in-out forwards;
+  }
+  .front-type4-enter-done{
+	background-image: url(../../assets/wheel/wheel_4.png);
+  }
+
+  @keyframes replace_front_type4 {
+	0%{
+		right: -11.5%;
+		bottom: -15%;
+	} 20% {
+		right: -11.5%;
+		bottom: -35%;
+		transform: rotateZ(-50deg);
+	} 50% {
+		right: -400%;
+		transform: rotateZ(760deg);
+	} 100% {
+		right: -11.5%;
+		background-image: url(../../assets/wheel/wheel_4.png);
+	}
+}
+/*===Replace Front Wheel TYPE 4============================*/
+
+/*===Replace Back Wheel TYPE 4============================*/
+.back-type4-enter-active {
+	animation: replace_back_type4 1s ease-in-out 0.8s forwards;
+  }
+  .back-type4-enter-done{
+	background-image: url(../../assets/wheel/wheel_4.png);
+  }
+
+  @keyframes replace_back_type4 {
+	0%{
+		left: -15%;
+		bottom: -15%;
+	} 20% {
+		left: -15%;
+		bottom: -35%;
+		transform: rotateZ(50deg);
+	} 50% {
+		left: -200%;
+		transform: rotateZ(-760deg);
+	} 100% {
+		left: -15%;
+		background-image: url(../../assets/wheel/wheel_4.png);
+	}
+}
+/*===Replace Back Wheel TYPE 4============================*/
